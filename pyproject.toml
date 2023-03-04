@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "liptracker"
+version = "0.2.4"
+description = ""
+authors = ["Agostinho Ramos <agostinhopina095@gmail.com>"]
+maintainers = ["Agostinho Ramos <agostinhopina095@gmail.com>"]
+license = "MIT"
+homepage = "https://newgus.com/"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^2.2.2"
+flask-pydantic-spec = "^0.4.1"
+python-nmap = "^0.7.1"
+python-dotenv = "^0.21.0"
+pytest-watch = "^4.2.0"
+pymongo = "^4.3.3"
+scapy = {extras = ["basic"], version = "^2.4.5"}
+paho-mqtt = "^1.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
